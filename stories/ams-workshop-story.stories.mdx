@@ -21,8 +21,8 @@ taxonomy:
 <Block>
     <Prose>
     ## Curator
-    - Name: YOUR_NAME
-    - Affiliation: YOUR_AFFILIATION
+    - Name: Nicole West
+    - Affiliation: Not a scientist
     </Prose>
 </Block>
 
@@ -112,6 +112,24 @@ taxonomy:
         CO₂ emissions (ODIAC) in Washington, DC
     </Chapter>
     <Chapter
+        center={[-74.0060, 40.7128]}
+        zoom={7}
+        datasetId='odiac-ffco2-monthgrid-v2022'
+        layerId='co2-emissions'
+        datetime='2021-01-01'
+    >
+        CO₂ emissions (ODIAC) in New York City
+    </Chapter>
+    <Chapter
+        center={[-122.4194, 37.7749]}
+        zoom={7}
+        datasetId='odiac-ffco2-monthgrid-v2022'
+        layerId='co2-emissions'
+        datetime='2021-01-01'
+    >
+        CO₂ emissions (ODIAC) in San Francisco
+    </Chapter>
+    <Chapter
         center={[-118.2437, 34.0522]}
         zoom={7}
         datasetId='odiac-ffco2-monthgrid-v2022'
@@ -136,8 +154,8 @@ taxonomy:
     <Map
     datasetId='odiac-ffco2-monthgrid-v2022'
     layerId='co2-emissions'
-    dateTime='2000-01-01'
-    compareDateTime='2021-01-01'
+    dateTime='2000-01-01'  //this is the slider
+    compareDateTime='2021-01-01' //this is the slider
     align="center"
     />
     <Caption>
